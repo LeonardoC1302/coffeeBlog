@@ -67,6 +67,9 @@ img { max-width: 100%; }
 }
 
 /* Bar */
+.bar {
+    padding-top: 4rem;
+}
 @media (min-width: 768px){
     .bar {
         display: flex;
@@ -171,4 +174,11 @@ img { max-width: 100%; }
 .course-widget__label,
 .course-widget__info {
     font-size: 2rem;
+}
+
+/* Footer */
+.footer{
+    background-color: var(--black);
+    padding-bottom: 3rem;
+    margin-top: 4rem;
 }
